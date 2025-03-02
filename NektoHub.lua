@@ -147,7 +147,7 @@ end
 
 
 local OrionLib = local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "NektoHub(v1.1)", HidePremium = false, SaveConfig = true, ConfigFolder = "MineSim", IntroText = "Loaded!"})
+local Window = OrionLib:MakeWindow({Name = "NektoHub", HidePremium = false, SaveConfig = true, ConfigFolder = "MineSim", IntroText = "Loaded!"})
 
 
 local Tab = Window:MakeTab({Name = "residence", Icon = "rbxassetid://4483345998", PremiumOnly = false })
@@ -532,32 +532,4 @@ plr:AddButton({
 	end
 })
 
-local LocalTab = Window:MakeTab({
-	Name = "Local",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
 
-local Section = LocalTab:AddSection({
-	Name = "Movement"
-})
-
-LocalTab:AddSlider({
-	Name = "WalkSpeed",
-	Min = 0,
-	Max = 20,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "WS",
-	Callback = function(Value)
-		game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-	end    
-})
-
-LocalTab:AddButton({
-	Name = "Press me!",
-	Callback = function()
-      		print("button pressed")
-  	end    
-})
