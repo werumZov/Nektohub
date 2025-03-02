@@ -24,3 +24,8 @@ Original script dont works
 i updating this script :D
 
 Good luck!
+
+
+
+
+Zov Hub is a test hub, this hub dont have functional, please use NektoHub
