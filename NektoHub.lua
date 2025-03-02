@@ -556,7 +556,7 @@ RandomTab:AddButton({
   	end    
 })
 RandomTab:AddButton({
-	Name = "Destroy Upd Board",
+	Name = "Destroy Upd Board(works in lobby)",
 	Callback = function()
       		game.Workspace.UpdateBoard:Destroy()
   	end    
