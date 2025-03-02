@@ -544,7 +544,7 @@ RandomTab:AddButton({
   	end    
 })
 RandomTab:AddButton({
-	Name = "Destroy Doors",
+	Name = "Destroy Doors(click it 6 times)",
 	Callback = function()
       		game.Workspace.Doors.Door:Destroy()
   	end    
