@@ -146,8 +146,8 @@ local function FullBright()
 end
 
 
-local OrionLib = local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "NektoHub", HidePremium = false, SaveConfig = true, ConfigFolder = "MineSim", IntroText = "Loaded!"})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "NektoHub(v1.1)", HidePremium = false, SaveConfig = true, ConfigFolder = "MineSim", IntroText = "Loaded!"})
 
 
 local Tab = Window:MakeTab({Name = "residence", Icon = "rbxassetid://4483345998", PremiumOnly = false })
@@ -530,6 +530,18 @@ plr:AddButton({
 			end
 		end
 	end
+})
+
+local RandomTab = Window:MakeTab({
+	Name = "Random",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+RandomTab:AddButton({
+	Name = "Press me!",
+	Callback = function()
+      		print("button pressed")
+  	end    
 })
 
 
