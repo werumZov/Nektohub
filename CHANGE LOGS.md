@@ -1,5 +1,6 @@
-Update 1.1:
+Update 1.2:
 
--Adding section Random
+-Adding button Destroy Doors
 
--Making script work(this dont working)
+
+:(
