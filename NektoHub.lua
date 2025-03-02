@@ -132,7 +132,7 @@ local function noclip()
 	end
 end
 
---game:GetService("Workspace").Lights.Light.Switch.Detector
+game:GetService("Workspace").Lights.Light.Switch.Detector
 
 local function FullBright()
 	while wait() do
@@ -146,8 +146,8 @@ local function FullBright()
 end
 
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "RM Killer", HidePremium = false, SaveConfig = true, ConfigFolder = "MineSim", IntroText = "je manos te tudiavaa"})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CoolManYesYes/OrionLib/refs/heads/main/source.txt')))()
+local Window = OrionLib:MakeWindow({Name = "NektoHub", HidePremium = false, SaveConfig = true, ConfigFolder = "MineSim", IntroText = "Loaded!"})
 
 
 local Tab = Window:MakeTab({Name = "residence", Icon = "rbxassetid://4483345998", PremiumOnly = false })
@@ -169,7 +169,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "AutoWin (use after night start)",
+	Name = "AutoWin (use after night start, dont work)",
 	Callback = function()
 		noclip()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-78.8145981, 19.2749767, -134.283234, 0.806505084, 0, -0.591227174, 0, 1, 0, 0.591227174, 0, 0.806505084)
