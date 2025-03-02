@@ -533,7 +533,7 @@ plr:AddButton({
 })
 
 local RandomTab = Window:MakeTab({
-	Name = "Random",
+	Name = "Visual",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -559,6 +559,12 @@ RandomTab:AddButton({
 	Name = "Destroy Upd Board(works in lobby)",
 	Callback = function()
       		game.Workspace.UpdateBoard:Destroy()
+  	end    
+})
+RandomTab:AddButton({
+	Name = "Destroy Larry",
+	Callback = function()
+      		game.ReplicatedStorage.Mutant:Destroy()
   	end    
 })
 
