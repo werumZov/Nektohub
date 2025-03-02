@@ -543,5 +543,11 @@ RandomTab:AddButton({
       		print("button pressed")
   	end    
 })
+RandomTab:AddButton({
+	Name = "Destroy Door",
+	Callback = function()
+      		game.Workspace.Doors.Door:Destroy()
+  	end    
+})
 
 
