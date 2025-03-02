@@ -1,7 +1,7 @@
 this script for residence massacre
 
 
-Current version: 1.1
+Current version: 1.2
 
 
 
