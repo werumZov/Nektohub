@@ -132,7 +132,7 @@ local function noclip()
 	end
 end
 
-game:GetService("Workspace").Lights.Light.Switch.Detector
+
 
 local function FullBright()
 	while wait() do
@@ -151,6 +151,10 @@ local Window = OrionLib:MakeWindow({Name = "NektoHub", HidePremium = false, Save
 
 
 local Tab = Window:MakeTab({Name = "residence", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+
+local Section = Tab:AddSection({
+	Name = "Dildasik"
+})
 
 
 Tab:AddButton({
