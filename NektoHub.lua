@@ -549,5 +549,17 @@ RandomTab:AddButton({
       		game.Workspace.Doors.Door:Destroy()
   	end    
 })
+RandomTab:AddButton({
+	Name = "Destroy Jeeps(works in lobby)",
+	Callback = function()
+      		game.Workspace.Jeep:Destroy()
+  	end    
+})
+RandomTab:AddButton({
+	Name = "Destroy Upd Board",
+	Callback = function()
+      		game.Workspace.UpdateBoard:Destroy()
+  	end    
+})
 
 
