@@ -33,7 +33,13 @@ RandomTab:AddButton({
 AboutTab:AddButton({
 	Name = "Telegram",
 	Callback = function()
-      		print("t.me/TwoHubs")
+      		OrionLib:MakeNotification({
+	Name = "Telegram",
+	Content = "t.me/TwoHubss",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
   	end    
 })
 
