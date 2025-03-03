@@ -29,3 +29,6 @@ Good luck!
 
 
 Zov Hub is a test hub, this hub dont have functional, please use NektoHub
+
+
+Zov Hub version v0.3
