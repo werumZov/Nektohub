@@ -4,7 +4,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jen
 
 
 
-local Window = OrionLib:MakeWindow({Name = "Zov Hub(v0.2)", HidePremium = false, SaveConfig = true, ConfigFolder = "ZovTest", IntroText = "Zov Hub"})
+local Window = OrionLib:MakeWindow({Name = "Zov Hub(v0.3)", HidePremium = false, SaveConfig = true, ConfigFolder = "ZovTest", IntroText = "Zov Hub"})
 
 local PlayerTab = Window:MakeTab({
 	Name = "Player",
@@ -26,22 +26,25 @@ local RandomTab = Window:MakeTab({
 RandomTab:AddButton({
 	Name = "Press me!",
 	Callback = function()
-      		print("button pressed")
+      		game.StarterGui:SetCore("SendNotification", {
+			Title = "Nothing!",
+			Text = "This is button?",
+			Duration = 15
+		})
   	end    
 })
 
 AboutTab:AddButton({
 	Name = "Telegram",
 	Callback = function()
-      		OrionLib:MakeNotification({
-	Name = "Telegram",
-	Content = "t.me/TwoHubss",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
-
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "@TwoHubs",
+			Text = "This is telegram :D",
+			Duration = 15
+		})
   	end    
 })
+
 
 
 
