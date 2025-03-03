@@ -540,7 +540,11 @@ local RandomTab = Window:MakeTab({
 RandomTab:AddButton({
 	Name = "Press me!",
 	Callback = function()
-      		print("button pressed")
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Nothing!",
+			Text = "This is button?",
+			Duration = 15
+		})
   	end    
 })
 RandomTab:AddButton({
