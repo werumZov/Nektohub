@@ -532,6 +532,7 @@ plr:AddButton({
 	end
 })
 
+--VISUAL
 local RandomTab = Window:MakeTab({
 	Name = "Visual",
 	Icon = "rbxassetid://4483345998",
@@ -548,7 +549,7 @@ RandomTab:AddButton({
   	end    
 })
 RandomTab:AddButton({
-	Name = "Destroy Doors(click it 6 times)",
+	Name = "Destroy Doors(click it 6 times)",           --Only you see that
 	Callback = function()
       		game.Workspace.Doors.Door:Destroy()
   	end    
@@ -571,5 +572,26 @@ RandomTab:AddButton({
       		game.ReplicatedStorage.Mutant:Destroy()
   	end    
 })
+--VISUAL!!!
+
+
+local AboutTab = Window:MakeTab({
+	Name = "About",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+AboutTab:AddButton({
+	Name = "Telegram",
+	Callback = function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "@TwoHubs",
+			Text = "This is telegram :D",
+			Duration = 7
+		})
+  	end    
+})
+
 
 
