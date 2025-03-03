@@ -4,7 +4,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jen
 
 
 
-local Window = OrionLib:MakeWindow({Name = "Zov Hub(v0.3)", HidePremium = false, SaveConfig = true, ConfigFolder = "ZovTest", IntroText = "Zov Hub"})
+local Window = OrionLib:MakeWindow({Name = "Zov Hub(t0.3)", HidePremium = false, SaveConfig = true, ConfigFolder = "ZovTest", IntroText = "Zov Hub"})
 
 local PlayerTab = Window:MakeTab({
 	Name = "Player",
