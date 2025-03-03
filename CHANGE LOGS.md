@@ -1,4 +1,4 @@
-Update 1.23:
+Update 1.24:
 
 Visual Update
 
