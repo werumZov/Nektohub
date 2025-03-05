@@ -1,7 +1,7 @@
  --Key system)
  local Player = game.Players.LocalPlayer
  local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
- local target = loadstring(game:HttpGet("https://raw.githubusercontent.com/werumZov/Nektohub/refs/heads/zovchik/NektoHub.lua"))()   
+ 
 
 
 -- Main
