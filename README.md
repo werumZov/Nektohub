@@ -1,6 +1,15 @@
 # NektoHub & ZovHub(keyless scripts)
 NektoHub script for residence massacre
 
+
+
+*IF YOU FOUND THIS pls check this telegram channel for information: https://t.me/TwoHubs*
+
+
+
+
+
+
 Current version: 1.24
 
 
@@ -31,7 +40,6 @@ Good luck!
 Zov Hub is a test hub, this hub dont have functional, please use NektoHub
 
 
-Zov Hub current version: t0.3
 
 
 
