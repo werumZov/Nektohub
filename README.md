@@ -35,7 +35,3 @@ Zov Hub current version: t0.3
 
 
 
-
-
-
-ZovHub: loadstring(game:HttpGet("https://raw.githubusercontent.com/werumZov/Nektohub/refs/heads/zovchik/ZovHub.lua"))()
