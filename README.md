@@ -1,5 +1,5 @@
 # NektoHub & ZovHub(keyless scripts)
-NektoHub script for residence massacre
+NektoHub script for residence massacre. Current version: 1.24
 
 
 
@@ -10,29 +10,6 @@ NektoHub script for residence massacre
 
 
 
-Current version: 1.24
-
-
-
-
-
-
-
-
-
-
-
-
-
-Original: i dont found script(
-
-
-Original script dont works
-
-
-i updating this script :D
-
-Good luck!
 
 
 
