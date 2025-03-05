@@ -1,5 +1,5 @@
-this script for residence massacre
-
+# NektoHub & ZovHub(keyless scripts)
+NektoHub script for residence massacre
 
 Current version: 1.24
 
